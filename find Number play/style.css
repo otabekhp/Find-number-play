@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: indigo;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    color:darkblue;
+}
+
+.random_number{
+    padding: 20px;
+    border-radius: 50px;
+    color: royalblue; 
+    font-size: 30px;
+    background-color: #fff;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+input{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+}
